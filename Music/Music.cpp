@@ -2,9 +2,9 @@
 //Harry Kalra
 
 #include "stdafx.h"
+#include <stdio.h>
 #include <iostream>
 #include <fstream>
-#include <cstring>
 using namespace std;
 
 class node
@@ -240,7 +240,7 @@ int main()
 		else
 		{
 			system("cls");
-			cout << "Invalid response" << endl;
+			cout << "Invalid" << endl;
 			answer = true;
 		}
 	} while (answer);
